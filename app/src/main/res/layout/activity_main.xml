@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.aula7.menusborderbutton.MainActivity">
 
    <Button
@@ -15,7 +16,16 @@
    <ImageButton
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:src="@drawable/descarga"
-       theme />
+       android:src="@drawable/iconoo"
+       android:theme="@style/RaisedButtonDark"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Hola Mundo"
+       android:drawableLeft="@drawable/iconoo"
+       android:theme="@style/RaisedButtonDark"
+       android:drawablePadding="5dp"/>
+
 
 </LinearLayout>
