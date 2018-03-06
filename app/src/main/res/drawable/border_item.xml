@@ -10,7 +10,7 @@
                 android:color="@android:color/black"
                 android:width="5dp"/>
             <!-- tamaño de las esquinas redondeadas -->
-            <corners android:radius="10dp"/>
+            <corners android:radius="1dp"/>
         </shape>
     </item>
 
